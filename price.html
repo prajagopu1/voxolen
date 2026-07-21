@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info navbar-custome">
+        <div class="container-fluid">
+            <a href="vexolen.html" class="text-decoration-none">
+            <h3 class="text-white"><i class="bi bi-boxes"></i> voxelo.ai</h1>
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapase navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="" data-bs-toggle="offcanvas" data-bs-target="#demo1">PRODUCT <i
+                                    class="bi bi-caret-down-fill"></i></a>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#demo2">SOLUTION <i
+                                    class="bi bi-caret-down-fill"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="price.html">PRICING</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-3">
+                         <button class="btn btn-outline-warning border border-1 border-peimary text-white" data-bs-target="#login" data-bs-toggle="modal">LOGIN</button>
+                         <a href="bookdemo.html" class="btn btn-outline-warning border border-1 border-peimary text-white">BOOK
+                        DEMO</a>
+                        <button class="btn btn-warning text-white">
+                            TRY FOR FREE <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+        </div>
+    </nav>
+
+     <!-- long form -->
+     <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="text-center">Login</h1>
+                    <p class="text-center text-dark">plese enter your e-mail and password :</p>
+
+                    <form action="" class="was-validated">
+                        <input type="email" class="form-control my-3" placeholder="Email" required>
+                        <div class="invalid-feedback">Enater email</div>
+                        <input type="password" class="form-control mt-3" placeholder="password"required>
+                        <div class="invalid-feedback">
+                            Enter password
+                        </div>
+
+                        <button class="btn btn-primary w-100 mt-5 mb-5">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- offcanvas -->
+
+    <div class="offcanvas offcanvas-top bg-info" id="demo1" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/feture.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold">Benefits</h3>
+                                    <small>CONVERT MORE SHOPPERS</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/how it work.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold mt-5 text-white">Features</h3>
+                                    <small>INTERACTIVE • 3D • AR • AI</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-0">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/fenifit.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3>How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold mt-3">
+                                        Explore →
+                                    </a>
+                                    <!-- <h3 class="fw-bold mt-5">How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <a href="#" class="text-white fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class=" card-box    border border-1 rounded-5  bg-white"
+                                style="width: 260px; height: 100%;">
+                                <div class="card-body  pt-5 flex-column ">
+                                    <h2 class="mb-3 mt-3">compani</h2>
+                                    <a href="#" class="text-dark text-decoration-none mb-2">About</a><br>
+                                    <a href="#" class="text-dark text-decoration-none mb-4">News</a><br>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-5">
+
+                                        Book a demo →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </section>
+    </div>
+    </div>
+    <!-- offcanvas 2 -->
+    <!-- Dropdwone2 -->
+    <div class="offcanvas offcanvas-top bg-info" id="demo2" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/footwer.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-dark">Footwear</h2>
+                                    <small class="text-uppercase">Inspect every stitch in 3D</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none ">
+
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/appare.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold">Apparel</h2>
+                                    <small class="text-uppercase text-danger fw-bold">Feel the fabric in 3D</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/faniture.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-danger">Furniture</h2>
+                                    <small class="text-uppercase fw-bold text-danger">See it in your room with
+                                        AR</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold ">
+                                        Explore →
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card border-0 shadow h-100 rounded-4 bg-body-tertiary">
+                                <div class="card-body d-flex flex-column">
+
+                                    <h3 class="mb-4">By business size</h3>
+
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="image/sme.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>SME</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="image/enterprice.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>Enterprise</span>
+                                    </div>
+
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-auto text-decoration-none">
+                                        Explore gallery →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </section>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="d-flex py-5 align-items-center">
+                <span class="bg-warning" style="width: 45px; height: 2px;"></span>
+                <span class="mx-2">Pricing · UG3D®</span>
+            </div>
+            <h1 class="display-1 fw-bold ">A 3D & AI content studio<br> <span class="text-secondary ">for all
+                    budgets.</span></h1>
+            <p class="text-secondary fw-bold my-3">Choose the plan that fits your team. Upgrade or downgrade any time.
+                Yearly <br> plans are charged annually. Prices are for use on one website and exclude <br>local taxes.
+            </p>
+            <div class="d-inline-flex align-items-center gap-3 p-2  bg-light">
+                <span class="fw-semibold">Monthly</span>
+
+                <div class="form-check form-switch ">
+                    <input class="form-check-input" type="checkbox">
+                </div>
+
+                <span class="fw-semibold text-secondary">Yearly</span>
+
+                <button class="btn btn-warning btn-sm fw-bold text-white">
+                    SAVE UP TO 30%
+                </button>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row g-4">
+
+                <!-- Free -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 rounded-4">
+                        <div class="card-body">
+
+                            <div class="bg-dark text-white rounded p-2 d-inline-block mb-3">
+                                <i class="bi bi-lightning-charge-fill"></i>
+                            </div>
+
+                            <h3>Free</h3>
+                            <p class="text-secondary small">
+                                Don't take our word for it. Try Voxelo for yourself.
+                            </p>
+
+                            <h1>£0 <small class="fs-6 text-secondary">/ month</small></h1>
+
+                            <button class="btn btn-outline-warning border border-1 border-dark w-100 my-4 text-dark">
+                                TRY FOR FREE →
+                            </button>
+
+                            <hr>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><input type="checkbox" checked> 1 seat</li>
+                                <li class="list-group-item"><input type="checkbox" checked> 10,000 credits</li>
+                                <li class="list-group-item"><input type="checkbox" checked> Up to 10 3D twins</li>
+                                <li class="list-group-item"><input type="checkbox" checked> 3D Hotspots</li>
+                                <li class="list-group-item"><input type="checkbox" checked> Customer Support</li>
+                                <li class="list-group-item text-secondary">- API Access</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Basic -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 rounded-4 bg-dark text-white position-relative">
+
+                        <span
+                            class="badge bg-warning text-dark position-absolute top-0 start-50 translate-middle rounded-pill">
+                            MOST POPULAR
+                        </span>
+
+                        <div class="card-body">
+
+                            <div class="bg-secondary rounded p-2 d-inline-block mb-3">
+                                🚀
+                            </div>
+
+                            <h3>Basic</h3>
+                            <p class="small text-secondary">
+                                Ideal for solopreneurs.
+                            </p>
+
+                            <h1 class="mt-4 p-2">£50 <small class="fs-6">/ month</small></h1>
+
+                            <button class="btn btn-warning w-100 my-4">
+                                TRY FOR FREE →
+                            </button>
+
+                            <hr class="mt-2">
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-dark text-white"><input type="checkbox" checked> 1 seat
+                                </li>
+                                <li class="list-group-item bg-dark text-white"><input type="checkbox" checked> 5,000
+                                    credits</li>
+                                <li class="list-group-item bg-dark text-white"><input type="checkbox" checked> 3D
+                                    Hotspots</li>
+                                <li class="list-group-item bg-dark text-white"><input type="checkbox" checked> Customer
+                                    Support</li>
+                                <li class="list-group-item bg-dark text-secondary">- API Access</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grow -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 rounded-4">
+
+                        <div class="card-body">
+
+                            <div class="bg-dark text-white rounded p-2 d-inline-block mb-3">
+                                <i class="bi bi-building"></i>
+                            </div>
+
+                            <h3>Grow</h3>
+                            <p class="text-secondary small">
+                                Ideal for businesses.
+                            </p>
+
+                            <h1 class="mt-4 p-2">£300 <small class="fs-6 text-secondary">/ month</small></h1>
+
+                            <button class="btn btn-outline-warning border border-1 border-dark w-100 my-4 text-dark">
+                                TRY FOR FREE →
+                            </button>
+
+                            <hr>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><input type="checkbox" checked> 3 seats</li>
+                                <li class="list-group-item"><input type="checkbox" checked> 35,000 credits</li>
+                                <li class="list-group-item"><input type="checkbox" checked> 3D Hotspots</li>
+                                <li class="list-group-item"><input type="checkbox" checked> Customer Support</li>
+                                <li class="list-group-item text-secondary">- API Access</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pro -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 rounded-4">
+
+                        <div class="card-body">
+
+                            <div class="bg-dark text-white rounded p-2 d-inline-block mb-3">
+                                <i class="bi bi-lightning-charge-fill"></i>
+                            </div>
+
+                            <h3>Pro</h3>
+                            <p class="text-secondary small">
+                                Ideal for large businesses.
+                            </p>
+
+                            <h1 class="my-4">£900 <small class="fs-6 text-secondary">/ month</small></h1>
+
+                            <button class="btn btn-outline-warning border border-1 border-dark w-100 my-4 text-dark">
+                                TRY FOR FREE →
+                            </button>
+
+                            <hr>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><input type="checkbox" checked> 5 seats</li>
+                                <li class="list-group-item"><input type="checkbox" checked> 100,000 credits</li>
+                                <li class="list-group-item"><input type="checkbox" checked> 3D Hotspots</li>
+                                <li class="list-group-item"><input type="checkbox" checked> Customer Support</li>
+                                <li class="list-group-item"><input type="checkbox" checked> API Access</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- table -->
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center align-items-center gap-2">
+                <span class="mb-2 bg-warning mt-2" style="width: 45px; height: 2px;"></span>
+                <span class="text-secondary text-uppercase">Side by side</span>
+
+            </div>
+            <p class="text-center display-6 fw-bold">Compare every feature</p>
+
+            <table class="table table-bordered text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="bg-dark text-white text-end ">
+                            <h6 class="mb-0">Free</h6>
+                            <h2 class="mb-0">£0</h2>
+                            <small>/ mo</small>
+                        </th>
+                        <th class="bg-warning text-dark">
+                            <h6 class="mb-0">Basic</h6>
+                            <h2 class="mb-0">£50</h2>
+                            <small>/ mo</small>
+                        </th>
+                        <th class="bg-dark text-white">
+                            <h6 class="mb-0">Grow</h6>
+                            <h2 class="mb-0">£300</h2>
+                            <small>/ mo</small>
+                        </th>
+
+                        <th class="bg-dark text-white">
+                            <h6 class="mb-0">Pro</h6>
+                            <h2 class="mb-0">£900</h2>
+                            <small>/ mo</small>
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Team members <span>1 seat</span></td>
+
+                        <td>1 seat</td>
+                        <td>3 seats</td>
+                        <td>5 seats</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Equivalent 3D twins <span>Up to 10</span>
+                        </td>
+
+                        <td>5,000</td>
+                        <td>35,000</td>
+                        <td>110,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Equivalent 3D twins <span>Up to 10</span>
+                        </td>
+
+                        <td>Up to 5</td>
+                        <td>Up to 35</td>
+                        <td>Up to 110</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Equivalent 3D twins <span>Up to 10</span>
+                        </td>
+
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Equivalent 3D twins <span>Up to 10</span>
+                        </td>
+
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Equivalent 3D twins <span>Up to 10</span>
+                        </td>
+
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Equivalent 3D twins <span>Up to 10</span>
+                        </td>
+
+                        <td>Standard</td>
+                        <td>Priority</td>
+                        <td>Bespoke Training</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Equivalent 3D twins <span>Up to 10</span>
+                        </td>
+
+                        <td>-</td>
+                        <td>-</td>
+                        <td>✔</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Custom Integrations
+                            ?<span>-</span></td>
+
+                        <td>-</td>
+                        <td>-</td>
+                        <td>Contact the Team</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-start d-flex justify-content-between">Hosting & Viewer
+                            <span>✔️</span>
+                        </td>
+
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <p class="text-center my-5 text-secondary mb-5">Try for free, and fear not: if you take a subscription and
+                can't get great results after following the
+                help<br> guides, contact us for further support or get your credits back.
+
+            </p>
+        </div>
+
+        <!-- collapase -->
+
+        <div class="container">
+            <h1 class="text-center">Frequently asked</h1>
+            <div class="accordion" id="faq">
+
+                <div class="accordion-item rounded-4 mt-5">
+
+                    <h2 class="accordion-header">
+
+                        <button class="accordion-button  collapase bg-white fs-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#one">
+
+                            What counts as a "credit"?
+
+                        </button>
+
+                    </h2>
+                    <div class="collapse accordion-collapse" id="one" data-bs-target="#faq">
+                        <div class="accordion-body text-secondary">
+                            1,000 credits produces one HD digital twin. Select an annual plan to receive the year's
+                            credits upfront. 2,000 credits produces one UHD digital twin. Credits refresh monthly on
+                            paid plans. Unused credits don't roll over. Enterprise plans can negotiate custom
+                            allowances.
+                        </div>
+                    </div>
+
+                </div>
+                <!-- item2 -->
+                <div class="accordion-item mb-3 rounded-4 mt-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#two">
+                            Do I need technical help to get started?
+                        </button>
+                    </h2>
+
+                    <div id="two" class="accordion-collapse collapse" data-bs-parent="#faq">
+
+                         <div class="accordion-body text-secondary">
+                            No. Record a short product video on any phone, upload it, and Voxelo handles the rest. A
+                            live 3D model is ready in approximately two hours. Our free Shopify integration is one click
+                            - paste a single embed line for other platforms.
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="accordion-item mb-3 rounded-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#three">
+                            What happens if I exceed my monthly credits?
+                        </button>
+                    </h2>
+
+                    <div id="three" class="accordion-collapse collapse" data-bs-parent="#faq">
+
+                         <div class="accordion-body text-secondary">
+                            You can top up with additional credit bundles, or upgrade to the next tier at any time -
+                            usage is pro-rated. We'll never stop your published models from serving to customers, even
+                            if you pause your plan.
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="accordion-item mb-3 rounded-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#four">
+                            Which platforms are supported?
+                        </button>
+                    </h2>
+
+                    <div id="four" class="accordion-collapse collapse" data-bs-parent="#faq">
+
+                        <div class="accordion-body text-secondary"> Shopify, Adobe Commerce (Magento), WooCommerce and
+                            BigCommerce all work out of the box. Any site that accepts a single line of HTML can embed a
+                            Voxelo viewer - including custom stacks, Webflow, Framer and headless commerce.
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="accordion-item mb-3 rounded-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#five">
+                            Who owns the 3D models and data?
+                        </button>
+                    </h2>
+
+                    <div id="five" class="accordion-collapse collapse" data-bs-parent="#faq">
+
+                        <div class="accordion-body text-secondary">
+                            You do. Voxelo hosts the models on your behalf. Export your source files at any time. Your
+                            product video data stays private to your workspace.
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="accordion-item rounded-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#six">
+                            What are the free trial limits?
+                        </button>
+                    </h2>
+
+                    <div id="six" class="accordion-collapse collapse" data-bs-parent="#faq">
+
+                        <div class="accordion-body text-secondary">
+                            The Free plan includes 10,000 credits - enough for up to 10 HD digital twins. No card
+                            required. Upgrade when you're ready.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- flude last -->
+    </div>
+
+    <!-- footer -->
+     <div class="container-fluid bg-dark  mt-5" style="margin-top: -1px; ">
+    <div class="container">
+       <div class="row  pb-5">
+         <div class="col-lg-8">
+             <h1 class="display-5 text-white fw-bold mt-5">Ready to see your products in 3D?</h1>
+             <p class="text-secondary">Capture, Create & Convert - from a short product video to a live 3D model<br> in approximately two hours. No studio. No specialists. No complex <br> workflows.</p>
+        </div>
+        <div class="col-lg-4 ">
+            <div class="d-flex  mt-5 gap-3 ">
+                <button class="btn btn-warning rounded fs-6 w-50 p-3 mt-5">TRY FOR FREE →</button>
+                <button class="btn btn-outline-warning rounded fs-6 w-50 p-3 mt-5">BOOK A DEMO</button>
+            </div>
+         
+        </div>
+        
+       </div>
+      
+    </div>
+    
+   </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

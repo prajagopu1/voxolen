@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+
+    </style>
+
+
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info navbar-custome">
+        <div class="container-fluid">
+            <a href="vexolen.html" class="text-decoration-none">
+                <h3 class="text-white"><i class="bi bi-boxes"></i> voxelo.ai</h1>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapase navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-bs-toggle="offcanvas" data-bs-target="#demo1">PRODUCT <i
+                                class="bi bi-caret-down-fill"></i></a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#demo2">SOLUTION <i
+                                class="bi bi-caret-down-fill"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="price.html">PRICING</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex gap-3">
+                    <button class="btn btn-outline-warning border border-1 border-peimary text-white"
+                        data-bs-target="#login" data-bs-toggle="modal">LOGIN</button>
+                    <a href="bookdemo.html" class="btn btn-outline-warning border border-1 border-peimary text-white">BOOK
+                        DEMO</a>
+                    <button class="btn btn-warning text-white">
+                        TRY FOR FREE <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- long form -->
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="text-center">Login</h1>
+                    <p class="text-center text-dark">plese enter your e-mail and password :</p>
+
+                    <form action="" class="was-validated">
+                        <input type="email" class="form-control my-3" placeholder="Email" required>
+                        <div class="invalid-feedback">Enater email</div>
+                        <input type="password" class="form-control mt-3" placeholder="password" required>
+                        <div class="invalid-feedback">
+                            Enter password
+                        </div>
+
+                        <button class="btn btn-primary w-100 mt-5 mb-5">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- offcanvas -->
+
+    <div class="offcanvas offcanvas-top bg-info" id="demo1" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/feture.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold">Benefits</h3>
+                                    <small>CONVERT MORE SHOPPERS</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/how it work.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold mt-5 text-white">Features</h3>
+                                    <small>INTERACTIVE • 3D • AR • AI</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-0">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/fenifit.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3>How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold mt-3">
+                                        Explore →
+                                    </a>
+                                    <!-- <h3 class="fw-bold mt-5">How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <a href="#" class="text-white fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class=" card-box    border border-1 rounded-5  bg-white"
+                                style="width: 260px; height: 100%;">
+                                <div class="card-body  pt-5 flex-column ">
+                                    <h2 class="mb-3 mt-3">compani</h2>
+                                    <a href="#" class="text-dark text-decoration-none mb-2">About</a><br>
+                                    <a href="#" class="text-dark text-decoration-none mb-4">News</a><br>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-5">
+
+                                        Book a demo →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </section>
+    </div>
+    </div>
+    <!-- offcanvas 2 -->
+    <!-- Dropdwone2 -->
+    <div class="offcanvas offcanvas-top bg-info" id="demo2" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/footwer.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-dark">Footwear</h2>
+                                    <small class="text-uppercase">Inspect every stitch in 3D</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none ">
+
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/appare.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold">Apparel</h2>
+                                    <small class="text-uppercase text-danger fw-bold">Feel the fabric in 3D</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/faniture.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-danger">Furniture</h2>
+                                    <small class="text-uppercase fw-bold text-danger">See it in your room with
+                                        AR</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold ">
+                                        Explore →
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card border-0 shadow h-100 rounded-4 bg-body-tertiary">
+                                <div class="card-body d-flex flex-column">
+
+                                    <h3 class="mb-4">By business size</h3>
+
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="image/sme.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>SME</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="image/enterprice.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>Enterprise</span>
+                                    </div>
+
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-auto text-decoration-none">
+                                        Explore gallery →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </section>
+    </div>
+    <div class="container">
+        <h1 class="display-1 fw-bold mt-4">Book a demo</h1>
+        <p class="text-secondary fw-bold">See how a short product video becomes interactive 3D visuals,
+            place-in-space<br> AR and conversion-ready imagery. Book a demo and we'll show you exactly <br> how. Want to
+            partner? Get in touch, too!</p>
+        <p class="text-secondary fw-bold">Better product content builds buyer confidence, and buyer confidence
+            <br>drives conversion. Book a quick demo and see what Voxelo can do for your<br> brand and business.
+        </p>
+        <div class="row d-flex flex-column justify-content-center align-items-center border border-2 py-4">
+            <div class="col-lg-8 ">
+                <div class="card shadow">
+                    <div class="row">
+                        <!-- left card -->
+                        <div class="col-md-6 border-end">
+                            <div class="text-center">
+                                <div class="rounded-circle bg-info-subtle d-inline-flex align-items-center justify-content-center mb-3"
+                                    style="width:60px;height:60px;">
+                                    <h4 class="mb-0">B</h4>
+                                </div>
+                                <h3>book a demo</h3>
+                                <h5 class="fw-bold my-4">
+                                    < July 2026>
+                                </h5>
+                                <table class="table table-borderless text-center ">
+                                    <thead>
+                                        <tr>
+                                            <th>MON</th>
+                                            <th>TUE</th>
+                                            <th>WED</th>
+                                            <th>THU</th>
+                                            <th>FRI</th>
+                                            <th>SAT</th>
+                                            <th>SUN</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="small ">
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>20</td>
+
+                                            <td>
+                                                <a href=""
+                                                    class=" btn btn-secondary bg-secondary text-white rounded-5 ">21</a>
+                                            </td>
+
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>27</td>
+                                            <td>28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                            <td>31</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-4">
+
+                            <h6 class="fw-bold">Meeting location</h6>
+                            <p class="small text-muted">📍 Google Meet</p>
+
+                            <h6 class="fw-bold mt-4">Meeting duration</h6>
+
+                            <div class="progress mb-4" style="height:24px;">
+                                <div class="progress-bar bg-secondary w-100">
+                                    30 mins
+                                </div>
+                            </div>
+
+                            <h6 class="fw-bold">What time works best?</h6>
+
+                            <p class="small mb-1">
+                                Showing times for <b>21 July 2026</b>
+                            </p>
+
+                            <p class="small text-primary">
+                                UTC +05:30 New Delhi, Mumbai, Calcutta
+                            </p>
+
+                            <div style="max-height:260px; overflow:auto;">
+
+                                <button class="btn btn-outline-secondary w-100 mb-2">12:00</button>
+
+                                <button class="btn btn-outline-secondary w-100 mb-2">12:15</button>
+
+                                <button class="btn btn-outline-secondary w-100 mb-2">3:30</button>
+
+                                <button class="btn btn-outline-secondary w-100 mb-2">4:45</button>
+
+                                <button class="btn btn-outline-secondary w-100 mb-2">5:00</button>
+
+                                <button class="btn btn-outline-secondary w-100 mb-2">6:45</button>
+
+                                <button class="btn btn-outline-secondary w-100 mb-2">8:00</button>
+
+                                <button class="btn btn-outline-secondary w-100">9:15</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container">
+        <p class="text-secondary fw-bold mt-4">Have a question or want to share a feature request with the team?<span
+                class="text-warning text-decoration-underline" style="cursor: pointer;"> Contact the team </span> to
+            learn <br> more.</h1>
+
+        <div class="row ">
+            <div class="col-lg-6 mt-5 py-4">
+                <h6>We'd love to hear from you! </h6>
+                <p class="text-secondary fw-bold">Have a question or want to share a feature request with the team? Get
+                    in touch:</p>
+                <form action="" class="was-validated">
+                    <label for="">NAME*</label>
+                    <input type="text" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Please complete this required field.
+                    </div>
+                    <label for="">WORK EMAIL*</label>
+                    <input type="email" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Please complete this required field.
+                    </div>
+
+                    <label for="">MASSAGE*</label>
+                    <textarea name="" id="" cols="3" class="form-control" required>
+              </textarea>
+
+                    <div class="invalid-feedback">
+                        Please complete this required field.
+                    </div>
+                    <p class="text-secondary fw-bold fs-6">By checking the boxes below, you agree to receive
+                        communications from voxelo.ai. You can unsubscribe anytime.</p>
+                    <p class="fw-bold text-secondary fs-6"> <input type="checkbox" class=""> I agree to receive other
+                        communications from voxelo.ai</p>
+                    <p class="fw-bold text-secondary">We care about your privacy. Learn how we handle your data in our
+                        Privacy Policy.</p>
+                    <p class="fw-bold text-secondary">To deliver your service, we need your permission to store and
+                        process your personal data.</p>
+
+                    <div class=" d-flex align-items-center">
+                        <h6 class="border p-3 bg-primary text-white"> <small>protected by
+                                <strong>reCAPTCHA</strong></small></h6>
+
+                        <span class="border" style="margin-top: -7px;">
+                            <img src="image/runded.png" alt="" width="51px">
+                        </span>
+
+                    </div>
+                    <button class="btn btn-warning float-end text-white ">Submit</button>
+
+
+
+                </form>
+                <p class="py-5 text-secondary">We'll reply within one working day. No spam, ever.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-sm rounded-4 p-4 mx-auto ">
+
+                    <small class="text-uppercase text-secondary fw-semibold">
+                        What to Expect
+                    </small>
+
+                    <ul class="list-unstyled mt-4">
+
+                        <li class="d-flex mb-4">
+                            <span class="text-warning fs-5 me-3">→</span>
+                            <span>
+                                A live <strong>3D model</strong> of one of your own products,
+                                built from a short video.
+                            </span>
+                        </li>
+
+                        <li class="d-flex mb-4">
+                            <span class="text-warning fs-5 me-3">→</span>
+                            <span>
+                                Approximately a <strong>two-hour turnaround</strong>
+                                per model with UG3D®.
+                            </span>
+                        </li>
+
+                        <li class="d-flex mb-4">
+                            <span class="text-warning fs-5 me-3">→</span>
+                            <span>
+                                Works with your existing platform –
+                                Shopify, Adobe Commerce,
+                                WooCommerce, BigCommerce.
+                            </span>
+                        </li>
+
+                        <li class="d-flex mb-4">
+                            <span class="text-warning fs-5 me-3">→</span>
+                            <span>
+                                No specialist hardware or scanning rigs.
+                            </span>
+                        </li>
+
+                        <li class="d-flex">
+                            <span class="text-warning fs-5 me-3">→</span>
+                            <span>
+                                Start free - no card required.
+                            </span>
+                        </li>
+
+                    </ul>
+
+                    <hr>
+
+                    <p class="mb-0 text-secondary">
+                        Prefer self-serve?
+                        <a href="#" class="fw-bold text-dark text-decoration-underline">
+                            Start a free trial →
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="py-4">
+            <p class="fs-5 fw-bold"><span class="text-secondary fw-bold"> FINE US</span> Voxelo, Campfield, Lower Byrom
+                St, Manchester, M3 4FP</p>
+            <div>
+                <div class="rounded-4 overflow-hidden shadow-sm">
+                    <iframe src="https://www.google.com/maps?q=Berlin,Germany&output=embed" width="100%" height="380"
+                        style="border:0;" loading="lazy" allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+
+    </div>
+    
+    <div class="container-fluid bg-dark" style="margin-top: -1px;">
+    <div class="container">
+       <div class="row  pb-5">
+         <div class="col-lg-8">
+             <h3 class="display- text-white fw-bold mt-5">Ready to see your products in 3D??</h3>
+             <span class="text-secondary"><small>Capture · Create · Convert - from a short product video to a live 3D model in approximately two hours. No studio. No specialists. No complex workflows. </small></pre>
+        </div>
+        <div class="col-lg-4 ">
+            <div class="d-flex  mt-5 gap-2 ">
+                <button class="btn btn-warning rounded fs-6 w-100  mt-5">TRY FOR FREE →</button>
+                <button class="btn btn-outline-warning rounded fs-6 w-100 mt-5">BOOK A DEMO</button>
+            </div>
+         
+        </div>
+        
+       </div>
+      
+    </div>
+    
+   </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

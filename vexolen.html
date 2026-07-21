@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        .imgeb {
+            background-image: url(image/shoesh.avif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .card1:hover{
+            background-color: rgb(255, 131, 30);
+            border-radius: 15px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger navbar-custome">
+        <div class="container-fluid ">
+            <a href="vexolen.html" class="text-decoration-none">
+            <h3 class="text-white"><i class="bi bi-boxes"></i> voxelo.ai</h1>
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapase navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#demo1">PRODUCT <i
+                                    class="bi bi-caret-down-fill"></i></a>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="" data-bs-toggle="offcanvas" data-bs-target="#demo2">SOLUTION <i
+                                    class="bi bi-caret-down-fill"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="price.html">PRICING</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-outline-warning border border-1 border-peimary text-white" data-bs-target="#login" data-bs-toggle="modal">LOGIN</button>
+                      <a href="bookdemo.html" class="btn btn-outline-warning border border-1 border-peimary text-white">BOOK
+                        DEMO</a> 
+                        <button class="btn btn-warning text-white">
+                            TRY FOR FREE <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+        </div>
+    </nav>
+
+    <!-- long form -->
+     <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="text-center">Login</h1>
+                    <p class="text-center text-dark">plese enter your e-mail and password :</p>
+
+                    <form action="" class="was-validated">
+                        <input type="email" class="form-control my-3" placeholder="Email" required>
+                        <div class="invalid-feedback">Enater email</div>
+                        <input type="password" class="form-control mt-3" placeholder="password"required>
+                        <div class="invalid-feedback">
+                            Enter password
+                        </div>
+
+                        <button class="btn btn-primary w-100 mt-5 mb-5">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- offcanvas -->
+
+    <div class="offcanvas offcanvas-top bg-danger" id="demo1" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/feture.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold">Benefits</h3>
+                                    <small>CONVERT MORE SHOPPERS</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/how it work.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold mt-5 text-white">Features</h3>
+                                    <small>INTERACTIVE • 3D • AR • AI</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-0">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/fenifit.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3>How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold mt-3">
+                                        Explore →
+                                    </a>
+                                    <!-- <h3 class="fw-bold mt-5">How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <a href="#" class="text-white fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6" >
+                            <div class=" card-box    border border-1 rounded-5  bg-white" style="width: 260px; height: 100%;">
+                                <div class="card-body  pt-5 flex-column ">
+                                    <h2 class="mb-3 mt-3">compani</h2>
+                                    <a href="#" class="text-dark text-decoration-none mb-2">About</a><br>
+                                    <a href="#" class="text-dark text-decoration-none mb-4">News</a><br>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-5">
+
+                                        Book a demo →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </section>
+    </div>
+    </div>
+      <!-- offcanvas 2 -->
+    <!-- Dropdwone2 -->
+    <div class="offcanvas offcanvas-top bg-danger" id="demo2" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/footwer.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-dark">Footwear</h2>
+                                    <small class="text-uppercase">Inspect every stitch in 3D</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none ">
+
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/appare.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold">Apparel</h2>
+                                    <small class="text-uppercase text-danger fw-bold">Feel the fabric in 3D</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/faniture.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-danger">Furniture</h2>
+                                    <small class="text-uppercase fw-bold text-danger">See it in your room with
+                                        AR</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold ">
+                                        Explore →
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card border-0 shadow h-100 rounded-4 bg-body-tertiary">
+                                <div class="card-body d-flex flex-column">
+
+                                    <h3 class="mb-4">By business size</h3>
+
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="image/sme.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>SME</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="image/enterprice.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>Enterprise</span>
+                                    </div>
+
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-auto text-decoration-none">
+                                        Explore gallery →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </section>
+    </div>
+    </div>
+
+    <!-- voxelo ai crfeta -->
+
+    <div class="container-fluid bg-dark text-white imgeb">
+        <div class="container">
+            <div class="row align-items-center pb-5">
+                <div class="col-lg-8  mt-5 ">
+                    <small> 3D & AI STUDIO FOR ECOMMERCE</small>
+                    <h1 class="display-1 fw-bold"> Build Buyer</h1>
+                    <h1 class="display-1 fw-bold"> Confidence Fast.</h1>
+                    <p class="lead mt-4">
+                        Capture a digital twin from video. Create 3D, AR and AI
+                        content <br> in one platform.
+                    </p>
+                    <button class="btn btn-danger rounded-pill px-4 py-2 fw-bold">
+                        Start creating →
+                    </button>
+
+                    <marquee behavior="scroll" direction="left" scrollamount="10">
+                        <div class="d-flex gap-5 text-white fw-semibold fs-5">
+                            <span>RECONDITION</span>
+                            <span>BEPO</span>
+                            <span>COSATTO</span>
+                            <span>SPORTS</span>
+                            <span>Saptembar</span>
+                            <span>Angel only</span>
+                    </marquee>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card  border-0 rounded-3 shadow imgeb text-white">
+                        <div class="card-body">
+                            <h3 class=""> POWERED BY UG3D®</h3>
+                            <hr>
+                            <p>
+                                Voxelo is made possible by a proprietary solution called
+                                User Generated 3D - or UG3D®.
+                                This allows almost anyone to capture a 3 minute video and
+                                upload to Voxelo.ai to start their journey into the world of 3D.
+                            </p>
+                               <button class="btn btn-warning rounded-pill fw-bold px-4">
+                            Try for free →
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+   
+    <!-- voxelo.ai 2 creat -->
+
+    <div class="container-fluid bg-dark text-white">
+        <div class="row text-center ">
+            <!-- item1 -->
+            <div class="col-lg-3 col-md-6 border-end border-white ">
+                <h1 class="display-2 fw-bold">+24
+                    <span class="fs-2 text-secondary">%</span>
+                </h1>
+                 <p class="text-uppercase  fw-bold fs-6 text-secondary ">
+                  Conversion uplift with 3D
+            </p>
+             <small class="text-secondary">
+                Forrester, 2024
+            </small>
+            </div>
+            <!-- item2 -->
+             <div class="col-lg-3 col-md-6 border-end border-white px-4">
+                   <h1 class="display-2 fw-bold">
+                       76<span class="fs-2 text-secondary">%</span>
+                   </h1>
+                   <p class="text-secondary text-uppercase text-secondary"> Consumers expect 3D</p>
+                   <small class="text-secondary">
+                     Adobe, 2023
+                   </small>
+             </div>
+             <!-- item3 -->
+              <div class="col-lg-3 col-md-6 border-end border-white px-4">
+                   <h1 class="display-2 fw-bold">
+                       2<span class="fs-2 text-secondary">hrs</span>
+                   </h1>
+                   <p class="text-secondary text-uppercase text-secondary">   Video to Live 3D Model</p>
+                   <small class="text-secondary">
+                      Voxelo UG3D
+                   </small>
+             </div>
+             <!-- item4 -->
+              <div class="col-lg-3 col-md-6 border-end border-white px-4">
+                   <h1 class="display-2 fw-bold">
+                       40<span class="fs-2 text-secondary">%</span>
+                   </h1>
+                   <p class="text-secondary text-uppercase text-secondary">    Of SMEs say 3D is too expensive</p>
+                   <small class="text-secondary">
+                      UnivDatos, 2024 - Until now.
+                   </small>
+                    
+             </div>
+             <hr>
+
+        </div>
+    </div>
+
+    <!-- wat your custome sya -->
+
+    <div class="container-fluid bg-dark">
+        <div class="container">
+        <div class="d-flex align-items-center  py-5">
+             <span class="bg-warning" style="width: 45px; height: 2px;">
+                
+             </span>
+             <span class="text-white mx-2 text-uppercase fw-bold">What Our Customers Say</span>
+        </div>
+
+        <!-- card -->
+          <div class="row g-3 pb-5">
+            <div class="col-lg-6">
+                <div class="card bg-dark text-white border-secondary rounded-4 h-100 hover">
+                <div class="d-flex flex-column card-body  card1">
+                    <div class="text-end fs-2">"</div>
+                     <p class="fs-3">
+                        "Voxelo is a gamechanger for us - a solution that
+                        delivers high-quality 3D assets at scale,
+                        without the traditional cost barriers."
+                    </p>
+                    <div class="mt-auto">
+                        <hr class="w-25"></hr>
+                        <h4 class="fw-bold">Jon Cleaver</h4>
+                          <small class="text-uppercase text-secondary">
+                            CTO • SPORTSSHOES.COM
+                        </small>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="col-lg-6">
+                <div class="card  bg-dark text-white border-secondary rounded-4 h-100">
+                <div class="d-flex flex-column card-body  card1">
+                    <div class="text-end fs-2">"</div>
+                     <p class="fs-5">
+                       “Helping people understand the differences and features of our product is super important, especially when people are shopping digitally so the digital twin we created with Voxelo is such an easy and engaging tool for us to be able to educate new customers.”
+                    </p>
+                     <div class="mt-auto">
+                        <hr class="w-25"></hr>
+                        <h4 class="fw-bold"> Ellie Brown</h4>
+                          <small class="text-uppercase text-secondary">
+                           Founder & Designer • RECONDITION
+                        </small>
+                        
+                    </div>
+                </div>
+               
+                </div>
+                
+            </div>
+            <hr class="text-white my-5">
+          </div>   
+          
+    </div>
+    
+    </div>
+   
+    <!-- footer -->
+   <div class="container-fluid bg-dark" style="margin-top: -1px;">
+    <div class="container">
+       <div class="row  pb-5">
+         <div class="col-lg-8">
+             <h1 class="display-5 text-white fw-bold">Ready to see your products in 3D?</h1>
+             <p class="text-secondary">Capture, Create & Convert - from a short product video to a live 3D model<br> in approximately two hours. No studio. No specialists. No complex <br> workflows.</p>
+        </div>
+        <div class="col-lg-4 ">
+            <div class="d-flex  mt-5 gap-3 ">
+                <button class="btn btn-warning rounded fs-6 w-50 p-3 mt-5">TRY FOR FREE →</button>
+                <button class="btn btn-outline-warning rounded fs-6 w-50 p-3 mt-5">BOOK A DEMO</button>
+            </div>
+         
+        </div>
+        
+       </div>
+      
+    </div>
+    
+   </div>
+     
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

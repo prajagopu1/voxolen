@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+
+    </style>
+
+
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info navbar-custome">
+        <div class="container-fluid">
+            <a href="vexolen.html" class="text-decoration-none">
+            <h3 class="text-white"><i class="bi bi-boxes"></i> voxelo.ai</h1>
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapase navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="" data-bs-toggle="offcanvas" data-bs-target="#demo1">PRODUCT <i
+                                    class="bi bi-caret-down-fill"></i></a>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#demo2">SOLUTION <i
+                                    class="bi bi-caret-down-fill"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="price.html">PRICING</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-3">
+                         <button class="btn btn-outline-warning border border-1 border-peimary text-white" data-bs-target="#login" data-bs-toggle="modal">LOGIN</button>
+                        <a href="bookdemo.html" class="btn btn-outline-warning border border-1 border-peimary text-white">BOOK
+                        DEMO</a>
+                        <button class="btn btn-warning text-white">
+                            TRY FOR FREE <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+        </div>
+    </nav>
+
+     <!-- long form -->
+     <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="text-center">Login</h1>
+                    <p class="text-center text-dark">plese enter your e-mail and password :</p>
+
+                   <form action="" class="was-validated">
+                        <input type="email" class="form-control my-3" placeholder="Email" required>
+                        <div class="invalid-feedback">Enater email</div>
+                        <input type="password" class="form-control mt-3" placeholder="password"required>
+                        <div class="invalid-feedback">
+                            Enter password
+                        </div>
+
+                        <button class="btn btn-primary w-100 mt-5 mb-5">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- offcanvas -->
+
+    <div class="offcanvas offcanvas-top bg-info" id="demo1" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/feture.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold">Benefits</h3>
+                                    <small>CONVERT MORE SHOPPERS</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/how it work.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3 class="fw-bold mt-5 text-white">Features</h3>
+                                    <small>INTERACTIVE • 3D • AR • AI</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none mt-0">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/fenifit.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h3>How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold mt-3">
+                                        Explore →
+                                    </a>
+                                    <!-- <h3 class="fw-bold mt-5">How It Works</h3>
+                                    <small>CAPTURE • CREATE • CONVERT</small>
+                                    <a href="#" class="text-white fw-bold text-decoration-none mt-3">
+                                        Explore →
+                                    </a> -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class=" card-box    border border-1 rounded-5  bg-white"
+                                style="width: 260px; height: 100%;">
+                                <div class="card-body  pt-5 flex-column ">
+                                    <h2 class="mb-3 mt-3">compani</h2>
+                                    <a href="#" class="text-dark text-decoration-none mb-2">About</a><br>
+                                    <a href="#" class="text-dark text-decoration-none mb-4">News</a><br>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-5">
+
+                                        Book a demo →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </section>
+    </div>
+    </div>
+    <!-- offcanvas 2 -->
+    <!-- Dropdwone2 -->
+    <div class="offcanvas offcanvas-top bg-info" id="demo2" style="height: 350px;">
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+            <section>
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5 overflow-hidden" style="width: 250px; height: 100%;">
+                                <img src="image/footwer.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-dark">Footwear</h2>
+                                    <small class="text-uppercase">Inspect every stitch in 3D</small>
+                                    <hr>
+                                    <a href="#" class="text-dark fw-bold text-decoration-none ">
+
+                                        Explore →
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/appare.jpg" alt="" class="rounded rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold">Apparel</h2>
+                                    <small class="text-uppercase text-danger fw-bold">Feel the fabric in 3D</small>
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold text-decoration-none">
+
+                                        Explore →
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+
+                            <div class="card rounded-5" style="width: 250px; height: 100%;">
+                                <img src="image/faniture.jpg" alt="" class=" rounded-5"
+                                    style="width: 250px; height: 100%;">
+                                <div class="card-img-overlay mt-5 d-flex flex-column justify-content-end">
+                                    <h2 class="fw-bold text-danger">Furniture</h2>
+                                    <small class="text-uppercase fw-bold text-danger">See it in your room with
+                                        AR</small>
+                                    <hr>
+                                    <a href="" class="text-decoration-none text-dark fw-bold ">
+                                        Explore →
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card border-0 shadow h-100 rounded-4 bg-body-tertiary">
+                                <div class="card-body d-flex flex-column">
+
+                                    <h3 class="mb-4">By business size</h3>
+
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="image/sme.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>SME</span>
+                                    </div>
+
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="image/enterprice.jpg" width="50" height="50" class="rounded me-3">
+                                        <span>Enterprise</span>
+                                    </div>
+
+                                    <hr>
+
+                                    <a href="#" class="text-dark fw-bold mt-auto text-decoration-none">
+                                        Explore gallery →
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </section>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="d-flex align-items-center  py-5">
+                <span class="bg-warning" style="width: 40px; height: 2px;"></span>
+                <span class="text-uppercase"><small class="mx-2 fw-bold text-secondary">Interactive 3D Gallery · UG3D®
+                        Technology</small></span>
+
+            </div>
+            <div class="">
+                <h1 class="fw-bold display-2">3D that builds buyer confidence, fast.</h1>
+                <h1 class="display-2 fw-bold text-secondary">Powered by UG3D®</h1>
+                <p class="fw-bold text-secondary">Browse real-time 3D product experiences by category. Not a render, not
+                    a video - <br>real, interactive 3D in the browser, captured with Voxelo's UG3D® technology.
+                    Rotate<br> any model and explore the realism accessible to all.</p>
+            </div>
+
+        </div>
+        <hr>
+        <!-- filter by vertical -->
+        <div class="container">
+            <small class="fw-bold text-secondary text-uppercase ">Filter by vertical</small>
+
+            <ul class="nav nav-pills gap-3 ">
+
+                <li class="nav-item border rounded-4 text-secondary border-secondary "><a href="#home" class="nav-link"
+                        data-bs-toggle="pill">ALL26</a></li>
+                <li class="nav-item border border-1 border-secondary rounded-4"><a href="#about" class="nav-link"
+                        data-bs-toggle="pill">FOOTWER 6</a></li>
+                <li class="nav-item border border-1 border-secondary rounded-4"><a href="#clothing" class="nav-link"
+                        data-bs-toggle="pill">CLOTHING 7</a></li>
+                <li class="nav-item border border-1 border-secondary rounded-4"><a href="#bage" class="nav-link"
+                        data-bs-toggle="pill">BAGES 3</a></li>
+                <li class="nav-item border border-1 border-secondary rounded-4">
+                    <a href="#fanichar" class="nav-link" data-bs-toggle="pill">FURNICHAR 6</a>
+                </li>
+                <li class="nav-item border border-1 border-secondary rounded-4"><a href="#other" class="nav-link"
+                        data-bs-toggle="pill">OTHER CATAGARI 4</a></li>
+
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane" id="home">
+                    <h1>3D Footwear</h1>
+                    <small class="text-secondary">3D builds footwear buyer confidence fast. Shoppers can inspect sole
+                        construction, material texture and <br> silhouette from every angle, building the confidence to
+                        convert.</small><br>
+                    <p class="badge bg-warning text-uppercase">Reduce returns fast with 3D</p>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane" id="about">
+                    <h1>3D Footwear</h1>
+                    <small class="text-secondary ">3D builds footwear buyer confidence fast. Shoppers can inspect sole
+                        construction, material texture and <br> silhouette from every angle, building the confidence to
+                        convert.</small><br>
+                    <p class="badge bg-warning text-uppercase">Reduce returns fast with 3D</p>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane" id="clothing">
+                    <h1>3D Clothing & Fashion</h1>
+                    <small class="text-secondary fw-bold">Fabric texture, construction detail and garment weight -
+                        communicated visually, at scale. 3D apparel experiences <br> reduce the gap between online
+                        browsing and in-store handling, increasing buyer confidence and reducing costly<br>
+                        returns.</small><br>
+                    <p class="badge bg-warning text-uppercase">76% of all consumers expect 3D product experiences -
+                        Adobe, 2023</p>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane" id="bage">
+                    <h1>3D Bags & Leather Goods</h1>
+                    <small>Hardware, stitching, interior structure - the details that justify a price point. 3D lets
+                        premium bag brands <br> communicate craftsmanship at the depth that drives both conversion and
+                        long-term brand trust.</small><br>
+                    <p class="badge bg-warning text-uppercase">↑ Buyer confidence in premium categories
+                    </p>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane" id="fanichar">
+                    <h1>3D Furniture & Homeware
+                    </h1>
+                    <small>In a category where seeing is believing, 3D closes the gap between inspiration and purchase.
+                        Customers can rotate, zoom and place furniture in their space before buying - reducing returns
+                        and driving the highest conversion uplifts of any ecommerce category.</small><br>
+                    <p class="badge bg-warning text-uppercase"> ↑ Buyer confidence in premium categories
+                    </p>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane" id="other">
+                    <h1>Diverse Applications
+                    </h1>
+                    <p>From auto and lifestyle, to toys and food, UG3D® captures the materials, scale and finish that
+                        flat photography <br> misses - giving shoppers the confidence to buy across every other category
+                        you sell.</p>
+                    <p class="badge bg-warning text-uppercase"> ↑ Buyer confidence in premium categories
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <!-- 5card -->
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/shoesh1.avif" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Running Shoe</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/shoesh2.webp" alt="" height="180px" class="card-img-top p-4 "><hr>
+                        <div class="card-body">
+                            
+                            <h5 class="card-title fw-bold">Fluffy Slipper</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/shoesh3.jpg" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Beige Boots</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/shoesh4.jpg" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Suede Shoe</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/shoesh5.jpg" class="card-img-top p-4" height="180">
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Running Shoes</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <!-- 6 card text -->
+
+         <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <h1>3D Clothing & Fashion</h1>
+                    <p class="text-secondary">Fabric texture, construction detail and garment weight - communicated visually, at scale. 3D apparel experiences<br> reduce the gap between online browsing and in-store handling, increasing buyer confidence and reducing costly<br> returns.</p>
+                    <p class="badge bg-warning">76% of all consumers expect 3D product experiences - Adobe, 2023</p>
+                </div>
+                <div class="col-2">
+                    <small class="d-flex justify-content-end mt-5 text-secondary text-uppercase">7 live scenes</small>
+                </div>
+            </div>
+              <hr>
+            </div>
+
+            <!-- 6 card -->
+
+              <div class="container">
+            <div class="row  mb-5 gap-4 g-4 ">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100 " style="width: 200px;">
+                        <img src="image/appare.jpg" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold"><small>Asymmetric jacket</small></h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/jacket2.jpg" alt="" height="180px" class="card-img-top p-4 "><hr>
+                        <div class="card-body">
+                            
+                            <h5 class="card-title fw-bold">Sued Jacket</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/jacket3.png" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Blue felt Top</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/jacket4.jpg" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Jeans</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/jacket5.webp" class="card-img-top p-4" height="180">
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Puffer jacket</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/jacket6.png" class="card-img-top p-4" height="180">
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Fine Lace Dress</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <!-- 2 car tex  -->
+
+                <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <h1>3D Bags & Leather Goods</h1>
+                    <p class="text-secondary">Hardware, stitching, interior structure - the details that justify a price point. 3D lets premium bag brands <br>communicate craftsmanship at the depth that drives both conversion and long-term brand trust.</p>
+                    <p class="badge bg-warning">↑ Buyer confidence in premium categories</p>
+                </div>
+                <div class="col-2">
+                    <small class="d-flex justify-content-end mt-5 text-secondary text-uppercase">3 live scenes</small>
+                </div>
+            </div>
+              <hr>
+            </div>
+            <!-- 2 card -->
+           <div class="container">
+             <div class="row gap-5 mb-5">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/bag.jpg" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">backpack</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/bag3.webp" class="card-img-top p-4" height="180">
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">backpack</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+           </div>
+
+           <!-- 5 card imge text -->
+            
+           <div class="container">
+            <div class="row mb-2 mt-5">
+                <div class="col-10">
+                    <h1>3D Furniture & Homeware</h1>
+                    <p class="text-secondary">In a category where seeing is believing, 3D closes the gap between inspiration and purchase. Customers can <br> rotate, zoom and place furniture in their space before buying - reducing returns and driving the highest <br> conversion uplifts of any ecommerce category.</p>
+                    <p class="badge bg-warning">↑ Highest conversion uplift of any category</p>
+                </div>
+                <div class="col-2">
+                    <small class="d-flex justify-content-end mt-5 text-secondary text-uppercase">3 live scenes</small>
+                </div>
+            </div>
+              <hr>
+            </div>
+             <!-- 5 card imge fanichar -->
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/fanichar1.webp" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold"><small>Angular side table</small></h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/fanichar2.webp" alt="" height="180px" class="card-img-top p-4 "><hr>
+                        <div class="card-body">
+                            
+                            <h5 class="card-title fw-bold">lether chire</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/fanichar3.webp" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Runded side sofa</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/fanichar4.jpg" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">ventag sofa</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100">
+                        <img src="image/fanichar5.jpg" class="card-img-top p-4" height="180">
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Green velvet chire</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <!-- 3 card -->
+
+                 <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <h1>Diverse Applications</h1>
+                    <p class="text-secondary">From auto and lifestyle, to toys and food, UG3D® captures the materials, scale and finish that flat photography <br>misses - giving shoppers the confidence to buy across every other category you sell.</p>
+                    <p class="badge bg-warning">↑ Buyer confidence across categories</p>
+                </div>
+                <div class="col-2">
+                    <small class="d-flex justify-content-end mt-5 text-secondary text-uppercase">4 live scenes</small>
+                </div>
+            </div>
+              <hr>
+            </div>
+            <!-- 2 card -->
+           <div class="container">
+             <div class="row gap-5 mb-5">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/set1.webp" class="card-img-top p-4" height="180"><hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Prams & car seat</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/set2.webp" class="card-img-top p-4" height="180">
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Toys & Tedy's</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="card rounded-4 h-100" style="width: 200px;">
+                        <img src="image/set4.jpg" class="card-img-top p-4" height="180">
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Food</h5>
+                            <a href="#" class="text-warning text-decoration-none fw-bold small">
+                                VIEW IN 3D →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+           </div>
+        <!-- last div -->
+
+        <!-- footwer -->
+    </div>
+    <div class="container-fluid bg-dark" style="margin-top: -1px;">
+    <div class="container">
+       <div class="row  pb-5">
+         <div class="col-lg-8">
+             <h3 class="display- text-white fw-bold mt-5">Ready to see your products in 3D??</h3>
+             <span class="text-secondary"><small>Capture · Create · Convert - from a short product video to a live 3D model in approximately two hours. No studio. No specialists. No complex workflows. </small></pre>
+        </div>
+        <div class="col-lg-4 ">
+            <div class="d-flex  mt-5 gap-2 ">
+                <button class="btn btn-warning rounded fs-6 w-100  mt-5">TRY FOR FREE →</button>
+                <button class="btn btn-outline-warning rounded fs-6 w-100 mt-5">BOOK A DEMO</button>
+            </div>
+         
+        </div>
+        
+       </div>
+      
+    </div>
+    
+   </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
